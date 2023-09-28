@@ -1,0 +1,8 @@
+{
+    "module_name": "module_name",
+    "package_name": "package_name",
+    "defines": "",
+    "link_libs": "",
+    "test_defines": "",
+    "test_link_libs": ""
+  }
