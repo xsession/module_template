@@ -14,7 +14,7 @@ int32_t {{cookiecutter.module_name}}_init({{cookiecutter.module_name}}_tst *self
 {
     assert(self != NULL);
 
-    self.{{cookiecutter.module_name}}_callback = {{cookiecutter.module_name}}_callback;
+    self->{{cookiecutter.module_name}}_callback = {{cookiecutter.module_name}}_callback;
 
     return 0;
 }
