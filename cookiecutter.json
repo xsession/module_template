@@ -4,5 +4,7 @@
     "defines": "",
     "link_libs": "",
     "test_defines": "",
-    "test_link_libs": ""
+    "test_link_libs": "",
+    "mock_libs": "",
+    "mock_defines": ""
   }

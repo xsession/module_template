@@ -1,4 +1,6 @@
 
+add_subdirectory(mock)
+
 add_module_test(
     NAME
         {{cookiecutter.module_name}}_test 
