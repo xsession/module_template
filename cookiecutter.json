@@ -5,6 +5,7 @@
     "link_libs": "",
     "test_defines": "",
     "test_link_libs": "",
+    "mock_enable": "false",
     "mock_libs": "",
     "mock_defines": ""
   }
