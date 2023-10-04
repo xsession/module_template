@@ -10,4 +10,4 @@ def remove_file(filepath):
 if __name__ == '__main__':
 
     if '{{ cookiecutter.mock_enable }}' == 'false':
-        shutil.rmtree(os.path.join(PROJECT_DIRECTORY, 'mock'))
+        shutil.rmtree(os.path.join(PROJECT_DIRECTORY, 'test/mock'))
