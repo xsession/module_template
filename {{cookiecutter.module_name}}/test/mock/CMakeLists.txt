@@ -1,9 +1,9 @@
 
 add_module_lib(
         NAME 
-                {{cookiecutter.buffer_name}}_{{cookiecutter.buffer_type}}_mock
+                {{cookiecutter.module_name}}_mock
         SOURCE 
-                src/{{cookiecutter.buffer_name}}_{{cookiecutter.buffer_type}}_mock.c 
+                src/{{cookiecutter.module_name}}_mock.c 
         INCLUDE 
                 inc
         LINK 
