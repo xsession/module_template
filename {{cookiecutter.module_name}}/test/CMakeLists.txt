@@ -1,5 +1,6 @@
-
+{% if cookiecutter.mock_enable == 'true' %}
 add_subdirectory(mock)
+{% endif %}
 
 add_module_test(
     NAME
