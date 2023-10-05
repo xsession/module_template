@@ -5,9 +5,9 @@ add_module_lib(
         PACKAGE 
                 {{cookiecutter.package_name}}
         SOURCE 
-                src/{{cookiecutter.module_name}}_mock.c 
+                tsrc/{{cookiecutter.module_name}}_mock.c 
         INCLUDE 
-                inc
+                tinc
         LINK 
                 {{cookiecutter.mock_libs}}
         DEFINES 
