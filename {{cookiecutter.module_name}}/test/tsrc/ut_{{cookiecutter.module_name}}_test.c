@@ -29,6 +29,13 @@ TEST({{cookiecutter.module_name}}, func_test)
     TEST_IGNORE_MESSAGE("Not implemented yet");
 }
 
+// Functions to test: 
+
+// Performance to test:
+
+// Memory leaks to test:
+
+// Error conditions to test:
 
 
 //-----------------------------------------------------
